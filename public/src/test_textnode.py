@@ -67,7 +67,7 @@ class TestTextNodeToHTMLNode(unittest.TestCase):
         node = TextNode("words", "invalid")
         with self.assertRaises(Exception):
             TextNode.text_node_to_html_node(node).to_html()
-
+    
 
 if __name__ == "__main__":
     unittest.main()
